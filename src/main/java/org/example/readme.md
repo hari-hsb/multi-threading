@@ -18,7 +18,6 @@ when can we interrupt:
 1. if a thread is executing a method that throws an _InterruptedException_
 2. if the Threads code is handling the Interrupt signal Explicitly
 
-**Deamon Thread**
-
+**Deamon Thread :**
 Background Thread that dont prevent the application from exiting if the main thread terminates
 eg: some background task that should not block our app from termination (file saving thread in Text editor) 
